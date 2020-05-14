@@ -22,14 +22,16 @@
         <script async type="text/javascript">
             let fetchPromise = fetch('hello_mesh.3dm');
 
-             <div id="container">
-            <a class="github-fork-ribbon left-top" href="https://github.com/mcneel/rhino3dm/blob/master/docs/javascript/samples/hello_mesh.html" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
-            <div id="canvas"></div>
-            </div>
+            
             
             rhino3dm().then(async m => {
                 console.log('Loaded rhino3dm.');
                 let rhino = m;
+                
+                 <div id="container">
+            <a class="github-fork-ribbon left-top" href="https://github.com/mcneel/rhino3dm/blob/master/docs/javascript/samples/hello_mesh.html" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+            <div id="canvas"></div>
+            </div>
 
                 let res = await fetchPromise;
                 let buffer = await res.arrayBuffer();
