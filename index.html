@@ -34,7 +34,7 @@
                 let arr = new Uint8Array(buffer);
                 let doc = rhino.File3dm.fromByteArray(arr);
 
-                THREE.Object3D.DefaultUp = new THREE.Vector3(0,0,0)
+                THREE.Object3D.DefaultUp = new THREE.Vector3(0,0,1)
                 init();
                 let material = new THREE.MeshNormalMaterial();
 
