@@ -1,4 +1,4 @@
-html, body {
+html, body, canvas {
    margin: 0;
    height: 100%;
 }
