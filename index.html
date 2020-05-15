@@ -55,8 +55,8 @@
             function init(){
                 scene = new THREE.Scene();
                 scene.background = new THREE.Color(0,0,0);
-                camera = new THREE.PerspectiveCamera( 45, window.innerWidth/window.innerHeight, 1, 1000 );
-                camera.position.set(26,-40,20)
+                camera = new THREE.PerspectiveCamera( 60, window.innerWidth/window.innerHeight, 1, 1000 );
+                camera.position.set(15,-40,20)
 
                 renderer = new THREE.WebGLRenderer({antialias: true});
                 renderer.setPixelRatio( window.devicePixelRatio );
