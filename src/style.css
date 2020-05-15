@@ -1,4 +1,5 @@
-html, body, canvas {
+html, head, body, canvas {
+   <title>LXXXIX</title>
    margin: 0;
    height: 100%;
 }
